@@ -5,21 +5,6 @@ Proje Teknolojileri: React Native, Expo, React Navigation, Yarn Geliştirici: Bu
 
 This is a React Native app built with Expo and Yarn. It includes a **Login** and **Sign-up** screen, utilizing **React Navigation** for smooth page transitions.
 
-## Table of Contents
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Demo
-You can see the demo of the app below:
-
-<!-- Add a link to the deployed app or a video if available -->
-[Demo Video](#)
 
 ## Features
 - User authentication with **Login** and **Sign-up** pages.
@@ -37,18 +22,46 @@ This project uses the following technologies and libraries:
 - 
 ## Project Structure
 ```bash
-MyReactNativeApp/
-├── assets/                  # Assets like images, fonts, etc.
-├── components/              # Reusable UI components
-├── navigation/              # Navigation setup using React Navigation
-├── screens/                 # Screens like Login, Signup, Home, etc.
-│   ├── HomeScreen.js
-│   ├── LoginScreen.js
-│   └── RegisterScreen.js
-├── utils/                   # Helper files (e.g., colors, images, etc.)
-├── App.js                   # Main entry point of the application
-├── app.json                 # Expo configuration
-├── package.json             # Project metadata and dependencies
-├── yarn.lock                # Yarn lock file for consistent package installs
-└── README.md                # This file
+ReactNativeAuthApp/
+├── assets/
+│   ├── fonts/
+│   ├── images/
+├── src/
+│   ├── components/
+│   │   └── CustomButton.jsx    # Özel buton bileşeni
+│   ├── routers/
+│   │   └── router.js           # Navigasyon yönlendirmeleri
+│   ├── screens/
+│   │   ├── Home/
+│   │   │   └── index.jsx       # Ana ekran
+│   │   ├── Login/
+│   │   │   └── index.jsx       # Giriş ekranı
+│   │   ├── Register/
+│   │   │   └── index.jsx       # Kayıt ekranı
+│   ├── utils/
+│   │   ├── colors.js           # Uygulama genelindeki renkler
+│   │   └── image.js            # Görseller
+├── App.js                       # Uygulamanın giriş noktası
+├── package.json                 # Proje bağımlılıkları
+├── yarn.lock                    # Yarn kilit dosyası
+
+
+## Kurulum ve Projeyi Çalıştırma
+
+Projeyi yerel ortamınıza klonladıktan sonra bağımlılıkları yükleyip projeyi çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+### 1. Bağımlılıkları Yükleme - `yarn install`
+
+Proje bağımlılıklarını yüklemek için **`yarn install`** komutunu kullanın. Bu komut, proje içerisindeki `package.json` dosyasında listelenen tüm bağımlılıkları indirip `node_modules` klasörüne ekler.
+
+```bash
+yarn install
+
+
+### 2. Bağımlılıkları yükledikten sonra projeyi çalıştırmak için - `yarn start`
+
+```bash
+yarn start
+
+
 
