@@ -1,10 +1,9 @@
 # LoginSignupApp
-Proje Teknolojileri: React Native, Expo, React Navigation, Yarn Geliştirici: Bu proje eğitim amaçlı veya daha büyük projeler için temel oluşturma amacıyla geliştirilmiştir.
+This project was developed for educational purposes or to create the basis for larger projects.
 
 # My React Native Expo App
 
 This is a React Native app built with Expo and Yarn. It includes a **Login** and **Sign-up** screen, utilizing **React Navigation** for smooth page transitions.
-
 
 ## Features
 - User authentication with **Login** and **Sign-up** pages.
@@ -19,7 +18,7 @@ This project uses the following technologies and libraries:
 - [Expo](https://expo.dev/)
 - [React Navigation](https://reactnavigation.org/)
 - [Yarn](https://yarnpkg.com/)
-- 
+  
 ## Project Structure
 ```bash
 ReactNativeAuthApp/
@@ -28,40 +27,34 @@ ReactNativeAuthApp/
 │   ├── images/
 ├── src/
 │   ├── components/
-│   │   └── CustomButton.jsx    # Özel buton bileşeni
+│   │   └── CustomButton.jsx 
 │   ├── routers/
-│   │   └── router.js           # Navigasyon yönlendirmeleri
+│   │   └── router.js    
 │   ├── screens/
 │   │   ├── Home/
-│   │   │   └── index.jsx       # Ana ekran
+│   │   │   └── index.jsx    
 │   │   ├── Login/
-│   │   │   └── index.jsx       # Giriş ekranı
+│   │   │   └── index.jsx
 │   │   ├── Register/
-│   │   │   └── index.jsx       # Kayıt ekranı
+│   │   │   └── index.jsx 
 │   ├── utils/
-│   │   ├── colors.js           # Uygulama genelindeki renkler
-│   │   └── image.js            # Görseller
-├── App.js                       # Uygulamanın giriş noktası
-├── package.json                 # Proje bağımlılıkları
-├── yarn.lock                    # Yarn kilit dosyası
+│   │   ├── colors.js        
+│   │   └── image.js  
+├── App.js        
+├── package.json 
+├── yarn.lock 
 
 
-## Kurulum ve Projeyi Çalıştırma
+## Setting Up and Running the Project
 
-Projeyi yerel ortamınıza klonladıktan sonra bağımlılıkları yükleyip projeyi çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+After cloning the project to your local environment, you can follow the following steps to install the dependencies and run the project:
 
-### 1. Bağımlılıkları Yükleme - `yarn install`
-
-Proje bağımlılıklarını yüklemek için **`yarn install`** komutunu kullanın. Bu komut, proje içerisindeki `package.json` dosyasında listelenen tüm bağımlılıkları indirip `node_modules` klasörüne ekler.
+### 1. Install Dependencies - `yarn install`
 
 ```bash
 yarn install
 
-
-### 2. Bağımlılıkları yükledikten sonra projeyi çalıştırmak için - `yarn start`
+### 2. To run the project after installing the dependencies - `yarn start`
 
 ```bash
 yarn start
-
-
-
